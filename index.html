@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ASWINKRISHNA</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="root">
+    <!-- Header -->
+    <header>
+      <div class="header-bar">
+        <button onclick="hamburgButton()" id="hamburgmenu" aria-label="Toggle menu">☰</button>
+        <button id="darkModeToggle" aria-label="Toggle dark mode">🌙</button>
+        <button id="downloadResume" onclick="downlodeCv()">Downlode CV</button>
+
+        <nav class="nav gap-3">
+          <a href="index.html" class="nav-lin">Work</a>
+          <a href="#" class="nav-lin">Play</a>
+          <a href="about.html" class="nav-lin">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Section 1 -->
+    <section id="section-1" class="my-5">
+      <div class="container">
+        <p class="p-1">
+          Hi, I'm ASWIN KRISHNA – a Front-End Developer building modern web applications <br>
+          with a focus on clean code and responsive design.
+        </p>
+
+        <div class="spacer"></div>
+
+        <h1 class="title text-start">PROJECTS-</h1>
+        <div class="spacer"></div>
+
+        <div class="project-item mb-4">
+          <h4 class="h4-project">Netflix UI Clone</h4>
+          <p>A front-end clone of Netflix built to practice responsive layouts and modern UI</p>
+          <a href="netflix-project.html" class="text-decoration-none">Read More →</a>
+        </div>
+
+        <div class="project-item mb-4">
+          <h4 class="h4-project">To-do App</h4>
+          <p>A simple To-Do App built to practice CRUD functionality.</p>
+          <a href="netflix-project.html" class="text-decoration-none">Read More →</a>
+        </div>
+
+        <div class="project-item mb-4">
+          <h4 class="h4-project">Backbenchers Cafe Website</h4>
+          <p>A modern and responsive website for a local cafe in Kasol.</p>
+          <a href="backbencheres.html" class="text-decoration-none">Read More →</a>
+        </div>
+
+        <!--GITHUB-VIEW-MORE-BUTTON-->
+
+        <div class="view-btn justify-content-center">
+          <a href="https://github.com/aaswne?tab=repositories">
+            <i class="fa-brands fa-github text-decoration-none ">MoreProjects</i></a>
+        </div>
+        <div class="spacer"></div>
+
+        <h1 class="title text-start">WRITINGS-</h1>
+      </div>
+
+      <div class="spacer"></div>
+
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer class="border-top py-3 mt-auto">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+
+      <!-- Left side -->
+      <div class="d-flex justify-content-center align-items-center mb-2">
+        <span class="fw-bold">Let’s Connect</span>
+        <a href="mailto:your@email.com" class="ms-2 text-decoration-none">
+          Get in touch <i class="bi bi-box-arrow-up-right"></i>
+        </a>
+      </div>
+
+      <!-- Center -->
+      <div class="mb-2 mb-md-0 text-center">
+        <span>Design with vision, code with passion.</span>
+      </div>
+
+      <!-- Right side -->
+      <div class="text-center text-md-end">
+        <a href="https://linkedin.com" target="_blank" class="social-link">
+          <i class="bi bi-linkedin" style="font-size: 1.2rem;"></i>
+        </a>
+        <a href="https://twitter.com" target="_blank" class="social-link">
+          <i class="bi bi-twitter-x" style="font-size: 1.2rem;"></i>
+        </a>
+        <a href="https://github.com/aaswne" target="_blank" class="social-link">
+          <i class="bi bi-github" style="font-size: 1.2rem;"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

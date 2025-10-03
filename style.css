@@ -1,0 +1,275 @@
+/* --- Global Styles --- */
+body {
+  margin: 0;
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+  padding: 10px;
+  min-height: 100vh;
+}
+
+.root {
+  justify-items: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* --- Header / Navbar --- */
+.header-bar {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border-radius: 20px;
+  gap: 158px;
+  padding: 10px;
+  position: relative;
+}
+
+@media screen and (max-width: 786px) {
+  .header-bar {
+    gap: 85px;
+
+  }
+
+}
+
+/* --- Desktop nav --- */
+.nav {
+  display: flex;
+  align-items: center;
+
+  color: black;
+  background-color: transparent;
+  font-size: 13px;
+  padding: 6px 8px;
+  cursor: pointer;
+
+}
+
+/* Nav links */
+.nav-lin {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+.nav-lin:hover {
+  color: white;
+}
+
+.darkmode .nav-lin:hover {
+  color: black !important;
+}
+
+
+/* Nav links color in darkmode */
+.darkmode .nav a {
+  color: white !important;
+}
+
+/* Hamburger button - hidden on desktop */
+#hamburgmenu {
+  display: none;
+  background-color: white;
+  border: 2px solid black;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 12px;
+  padding: 6px 8px;
+  cursor: pointer;
+}
+
+#hamburgmenu:hover {
+  background-color: black;
+  color: white;
+}
+
+.darkmode #hamburgmenu {
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+
+}
+
+.darkmode #hamburgmenu:hover {
+  background-color: white;
+  color: black;
+}
+
+@media screen and (max-width: 786px) {
+  .nav {
+    display: none !important;
+    flex-direction: column;
+    background-color: rgba(169, 169, 169, 0.8);
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    right: 10px;
+    border-radius: 8px;
+    z-index: 999;
+
+  }
+
+  .nav.active {
+    display: flex !important;
+  }
+
+  #hamburgmenu {
+    display: flex !important;
+  }
+}
+
+/* darkmode toggle button */
+
+.darkmode {
+  background-color: black;
+  color: white;
+}
+
+/* Dark-mode button style */
+#darkModeToggle {
+  display: flex;
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 10px;
+  font-size: 13px;
+  padding: 6px 8px;
+  cursor: pointer;
+}
+
+#darkModeToggle:hover {
+  background-color: white;
+  border: 2px solid black;
+}
+
+.darkmode #darkModeToggle {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+
+.darkmode #darkModeToggle:hover {
+  background-color: black;
+  border: 2px solid white;
+}
+
+/* Paragraph style */
+p {
+  margin: 0;
+  font-size: 20px;
+  text-align: justify;
+
+}
+
+
+/* --- Spacer --- */
+.spacer {
+  height: 40px;
+}
+
+/* text style */
+
+p {
+  color: black;
+  font-size: 16px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: transparent;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+p:hover {
+  background-color: aliceblue;
+}
+
+.darkmode p:hover {
+  color: black;
+
+}
+
+.darkmode p {
+  color: white;
+}
+
+.h4-project {
+  cursor: pointer;
+}
+
+.h4-project:hover {
+  text-decoration: line-through;
+}
+
+.title {
+  font-size: 30px;
+}
+
+/* downlode resume button*/
+#downloadResume {
+  display: flex;
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 13px;
+  padding: 6px 8px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+#downloadResume:hover {
+  background-color: black;
+  color: white;
+}
+
+.darkmode #downloadResume {
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+}
+
+.darkmode #downloadResume:hover {
+  background-color: white;
+  color: black;
+}
+
+/*image*/
+
+#my-img {
+  border-radius: 30px;
+  width: 600px;
+}
+
+@media screen and (max-width: 786px) {
+  #my-img {
+    width: 330px;
+
+  }
+}
+
+/*footer */
+.social-link {
+  margin-left: 1rem;
+  color: #212529;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.social-link:hover {
+  transform: translateY(-10px);
+}
+
+
+.darkmode .social-link {
+  margin-left: 1rem;
+  color: white;
+  text-decoration: none;
+}

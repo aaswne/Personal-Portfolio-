@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    background-color: white;
+    color: black;
+    min-height: 100vh;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.root {
+    justify-items: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.head-p {
+    background-color: transparent;
+    width: 100;
+    height: 66px;
+    padding: 10px;
+}
+
+.custom-icon {
+    background-color: transparent;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.header-bb {
+    padding: 10px;
+    width: 100%;
+    height: 70px;
+    background-color: transparent;
+}
+
+.spacer {
+    height: 20px;
+}
+
+p {
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    max-width: 600px;
+    font-weight: 100;
+    font-size: 16px;
+    color: gray;
+}
+
+p:hover {
+    background-color: aliceblue;
+}
+
+.code-1 {
+    width: 70%;
+
+    border-radius: 6px;
+}
+
+@media screen and (max-width:786px) {
+    .code-1 {
+        width: 100%;
+
+        border-radius: 6px;
+
+    }
+
+}
+
+#section-1 .container {
+    max-width: 550px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.yellow {
+    color: blue;
+    border-radius: 10px;
+}
+
+.title {
+    font-weight: 300;
+    font-size: 40px;
+}
+
+h4 {
+    font-weight: 200;
+}
+
+.darkmode {
+    background-color: black;
+    color: white;
+}
+
+/* Dark-mode button style */
+#darkModeToggle {
+    display: flex;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 13px;
+    padding: 6px 8px;
+    cursor: pointer;
+    float: left;
+
+}
+
+#darkModeToggle:hover {
+    background-color: white;
+    border: 2px solid black;
+
+
+}
+
+.darkmode #darkModeToggle {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.darkmode #darkModeToggle:hover {
+    background-color: black;
+    border: 2px solid white;
+
+}
+
+.darkmode p:hover {
+    color: black;
+
+}
+
+.leftarrow {
+    background-color: white;
+    font-size: 20px;
+    cursor: pointer;
+    float: left;
+    margin-top: 8px;
+
+
+
+}
+
+.leftarrow:hover {
+    transform: rotate(360deg);
+    transition: 0.6s ease-in-out;
+
+}
+
+.darkmode .leftarrow {
+    color: white;
+    background-color: black;
+}
+
+.video-1 {
+    width: 90%;
+    border-radius: 6px;
+}
+
+.video-porttrait {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.social-link {
+    margin-left: 1rem;
+    color: #212529;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.social-link:hover {
+    transform: translateY(-10px);
+}
+
+
+.darkmode .social-link {
+    margin-left: 1rem;
+    color: white;
+    text-decoration: none;
+}
