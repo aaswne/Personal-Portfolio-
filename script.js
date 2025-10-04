@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function downloadCv() {
-  const fileId = '10Mo9G0ezQ-JW6lv4o3pIN6pxAKSjnJOH'; // Replace with your actual file ID
+  const fileId = '10Mo9G0ezQ-JW6lv4o3pIN6pxAKSjnJOH'; 
   const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
 
   const a = document.createElement('a');
