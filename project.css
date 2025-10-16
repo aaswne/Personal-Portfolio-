@@ -5,7 +5,6 @@ body {
     min-height: 100vh;
     padding: 10px;
     text-align: center;
-
 }
 
 .root {
@@ -58,8 +57,13 @@ p:hover {
 
 .code-1 {
     width: 70%;
-
+    cursor: pointer;
     border-radius: 6px;
+    transition: transform 0.3s ease;
+
+}
+.code-1:hover{
+      transform: scale(1.1);
 }
 
 @media screen and (max-width:786px) {
@@ -76,6 +80,7 @@ p:hover {
     max-width: 550px;
     margin: 0 auto;
     text-align: left;
+    max-width: 650px;
 }
 
 .yellow {
@@ -138,8 +143,8 @@ h4 {
     background-color: white;
     font-size: 20px;
     cursor: pointer;
-    float: left;
     margin-top: 8px;
+
 
 
 
@@ -185,6 +190,7 @@ h4 {
     color: white;
     text-decoration: none;
 }
-.spacer-2{
+
+.spacer-2 {
     height: 20px;
 }
